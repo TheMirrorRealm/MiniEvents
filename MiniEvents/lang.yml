@@ -1,0 +1,151 @@
+
+# ** LMS **
+lms-spawn-not-set: '&cThe spawn point for LMS has not yet been set. Use /lms'
+lms-before: '&cYou have 5 seconds of invincibility until LMS starts.'
+lms-invis-over: '&cYou are no longer invincible.'
+lms-set: '&7Set spawn point for LMS.'
+lms-usage: '&cPlease use /lms (setspawn|setinv|delinv)'
+player-won-lms: '&b{0} &7just won &bLMS!'
+
+# ** SPLEEF **
+spleef-before: '&cYou cannot break blocks for 5 seconds.'
+player-won-spleef: '&b{0} &7just won &bSpleef!'
+spleef-invis-over: '&cYou can now break blocks.'
+spleef-spawn-not-set: '&cThe spawn point for Spleef has not yet been set. Use /spleef'
+spleef-set: '&7Set spawn point for spleef.'
+spleef-usage: '&cPlease use /spleef (setspawn|setinv|delinv)'
+
+# ** KO **
+ko-before: "&7You are invincible for 5 seconds."
+ko-spawn-not-set: '&cKO''s spawn is not set. Do /ko'
+ko-invis-over: '&cYou are no longer invincible.'
+player-won-ko: '&b{0} &7just won &bKO!'
+ko-usage: '&cPlease use /ko (setspawn|setinv|delinv)'
+ko-set: '&7Set spawn point for KO!'
+
+# ** TNT **
+tnt-spawn-not-set: "&cTNT Run's spawn has not yet been set."
+tnt-invis-over: "&cYou will now turn the TNT under your feet to air."
+tnt-before: "&7The TNT under your feet will turn into air in 5 seconds."
+player-won-tnt: "&b{0} &7just won &bTNT Run!"
+tnt-set: "&7Set spawn point for TNT Run."
+tnt-usage: "&cPlease use /tntrun (setspawn|setinv|delinv)"
+
+# ** PAINT **
+paint-spawn-not-set: "&cThe spawn point for Paint Ball has not yet been set. Use /paint"
+player-won-paint: "&b{0} &7just won &bPaint Ball!"
+paint-invis-over: "&cYou are no longer invincible."
+paint-before: "&7You are invincible for 5 seconds."
+paint-set: "&7Set Paint Ball's spawn."
+paint-usage: "&cPlease use /paint (setspawn|setinv|delinv)"
+
+# ** KOTH **
+player-won-koth: "&b{0} &7just won &bKOTH!"
+koth-teleport: "&7You will be teleported to KOTH in &b5 &7seconds."
+koth-spawn-not-set: "&cThe spawn point for KOTH has not yet been set. Use /koth"
+koth-top-not-set: "&cThe top point for KOTH has not yet been set. Use /koth"
+koth-usage: '&cPlease use /koth (setspawn|settop|setinv|delinv)'
+koth-set: "&7Set the spawn point for KOTH."
+koth-set-top: "&7Set the top point for KOTH."
+koth-announce: "&6{0} &7is at &6{1}% &7in KOTH!"
+koth-invis-over: "&cYou are no longer invincible."
+koth-before: "&7You are invincible for 5 seconds."
+koth-announce-player: "&aYou &7are at &a{0}% &7in KOTH!"
+
+# ** PARKOUR **
+parkour-spawn-not-set: "&cThe spawn point for parkour has not yet been set."
+parkour-top-not-set: "&cThe top point for Parkour has not yet been set."
+parkour-set: "&7Set the spawn point for Parkour."
+parkour-set-top: "&7Set the top point for Parkour."
+parkour-usage: "&cPlease use /parkour (setspawn|settop|setinv|delinv)"
+parkour-before: "&cFinish the parkour first to win!"
+player-won-parkour: "&b{0} &7just won &bParkour!"
+
+# ** HORSE RACE **
+horse-usage: "&cUsage: /horse (setspawn, setinv, delinv)"
+horse-set: "&7Set the spawn point for horse."
+horse-spawn-not-set: "&cThe spawn point for Horse Race has not yet been set."
+horse-invis-over: "&cRace has started!"
+player-won-horse: "&c{0} won Horse Event"
+
+# ** OITC **
+oitc-deleted-spawn: "&7Deleted spawn point &b{0}&7."
+oitc-null-spawn: "&cCould not find spawn point {0}."
+oitc-added-spawn: "&aAdded a spawn point &b{0} &ato OITC."
+oitc-time-left-minute: "&6OITC &aends in &6{0} &aminutes."
+oitc-time-left: "&6OITC &aends in &6{0} &aseconds."
+oitc-died: "&cYou were killed by &6{1}&c. Current score: &6{0}&c."
+oitc-hit: "&b+1. &aYou killed &6{1}&a! Current score: &6{0}&a."
+oitc-spawn-not-set: "&cThe spawn point for OITC has not yet been set. Use /oitc"
+oitc-usage: '&cPlease use /oitc (setspawn|addspawn (number)|delspawn (number)|setinv|delinv)'
+oitc-set: "&7Set the main spawn point for OITC."
+oitc-set-top: "&7Set the top point for OITC."
+oitc-invis-over: "&cYou are no longer invincible."
+oitc-before: "&7You are invincible for 5 seconds."
+player-won-oitc: "&b{0} &3just won OITC with &b{1} &3kills!"
+
+# ** TDM **
+tdm-usage:
+   - "&c/tdm setspawn (blue, red)"
+   - "&c/tdm setinv (blue, red)"
+   - "&c/tdm delinv (blue, ded)"
+
+tdm-set: "&7Set the spawn point for horse."
+red-team-won: "&cThe &4Red &cteam won!"
+blue-team-won: "&cThe &bBlue &cteam won!"
+tdm-red-set: "&7The spawn for &bTDM (&7Red Team&b) &7has been set."
+tdm-blue-set: "&7The spawn point for &bTDM (&7Blue Team&b) &7has been set."
+tdm-blue-spawn-not-set: "&cThe spawn point for the blue team has not been set. /tdm"
+tdm-red-spawn-not-set: "&cThe spawn point for the red team has not been set. /tdm"
+you-are-on-red: "&7You are on the &4Red &7team."
+you-are-on-blue: "&7You are on the &bBlue &7team."
+
+# ** DEATH MESSAGES **
+ko-death: "&c{0} &7just got knocked out in KO&7!"
+lms-death: "&c{0} &7was killed in LMS&7!"
+spleef-death: "&c{0} &7just got spleefed!"
+tnt-death: "&c{0} &7lost in TNT Run!"
+koth-death: "&c{0} &7was killed in KOTH!"
+paint-death: "&c{0} &7was killed in Paint Ball Fight!"
+red-death: "&4{0} &7was killed in TDM!"
+blue-death: "&b{0} &7was killed in TDM!"
+
+# ** STATS **
+stats:
+   main:
+      - "&7-=-=- &b{NAME}'s Stats &7-=-=-"
+      - "&bTotal Games Played &7- &3{1}"
+      - "&bTotal Wins &7- &a{0}"
+
+# ** OTHER **
+set: "&7Set spawn point for {0}"
+spec-set: "&7Set spectate mode for {0}"
+deleted-spec: "&7Deleted spectate spawn point for {0}"
+left-event: "&3You have left the event."
+not-in-event: "&cYou are not currently in an event."
+automatic-ended: "&cTime's up; there were no winners in the event."
+joined-event: '&bYou joined event! Players in the event: &e{0}'
+stats-usage: "&cUsage: /es or /es (player) or /es top"
+null-target: "&cCould not find target {0}"
+sendraw-sent: "&7Message was sent to &b{0}&7."
+sendraw-usage: "&cUsage: /sendraw (player) (message)"
+no-permission: "&cYou do not have permission."
+deleted-inv: "&7Deleted inventory loadout for {0}."
+saved-inv: "&7Saved inventory loadout for {0}."
+got-money: "&aYou received &b${0} &afor winning the event!"
+player-left: '&8{0} &7left.'
+reloaded-config: "&7Reloaded MiniEvent's config."
+set-quit: '&7Set quit point for all events.'
+quit-not-set: '&cThe quit point has not been set. Do /setquit'
+no-events-to-end: '&cThere are no events to end.'
+ended-event: '&cAny event in progress was ended.'
+event-no-commands: '&cYou cannot use any commands in an event.'
+player-won-event: "&b{0} &7won the event!"
+event-not-enough-players: '&cNot enough players to start an event.'
+event-start: '&c{0} has started!'
+event-countdown: '&b{0} &7will start in &b{1} &7seconds! &7Type &b/join &7to join.'
+already-in-event: '&cYou are already in the event.'
+no-events: '&cThere are no events to join.'
+event-in-progress: '&cThere is already an event in progress.'
+player-joined-event: "&b{0} &7joined the event. Players in the event: &b{1}&7."
+now-in-spectate: "&cYou are now in spectate mode. Type /leave to leave."

@@ -1,0 +1,231 @@
+events:
+
+   # How long to wait for players to join. (Must be an integer).
+   # The plugin will start counting down from 60 and then 45, 30, etc.
+   time-to-start: 45
+
+   # What will come up when you use /event
+   starting:
+      - '&7&m------------------------&bEvent&7&m------------------------'
+      - ' '
+      - '&7Event: &c{EVENT} &2| &7Host: &a{PLAYER} &2| &7Type &e/join &7to join!'
+      - ' '
+      - '&7&m-----------------------------------------------------'
+
+   # The item that has the ability to shoot paintballs:
+
+   # The item's ID:
+   paintball-item: "293:0"
+
+   # Should players fly up with the firework that goes off when he/she wins?
+   fly-up-with-firework: true
+
+   # The block that a player will win if he/she crosses it in horse race.
+   block-below-horse: "7:0"
+
+   # Grace period before an event start.
+   grace-period: 5
+
+   # How much damage one paintball will do:
+   paintball-damage: 2
+
+   # The spectate item that someone gets when they go in spectate mode.
+   spectate-item: "264:0"
+
+   # Name of the spectate item.
+   spectate-item-name: "&b&lRight Click To Quit"
+
+   # How long (seconds) a player needs to be on top of the KOTH platform to win.
+   koth-wait: 100
+
+   # Speed of the horses that spawn in horse race.
+   # 0.23888842211270872 is normal.
+   horse-speed: 0.23888842211270872
+
+   # The message that shows up in the Bar up top in KOTH.
+   koth-top-message: "&aYou are now at &c&l{0}%"
+
+   # Message a player gets when they are respawning for KOTH.
+   koth-spawn: "&cRespawning..."
+
+   # Help menu for /event
+   help-menu:
+     - '&7&m-----------------------&bEvent Help&7&m---------------------'
+     - "&b- &a/event &b(&aLMS&7, &aPaint&7, &aKOTH&7, &aOITC&7, &aTDM&b)"
+     - "&b- &a/event &b(&aSpleef&7, &aKO&7, &aTNT&7, &aParkour&7, &aHorse&b)"
+     - "&b- &a/event &b(&aEnd&7, &aReload&b)"
+     - '&7&m-----------------------------------------------------'
+
+
+auto-stop:
+   # MAX TIME: 3599
+   # If you put more than 3599, your scoreboards will not look nice.
+   # Seconds before each event auto-ends.
+   ko: 100
+   koth: 100
+   lms: 100
+   oitc: 100
+   paint: 100
+   parkour: 100
+   spleef: 100
+   tnt: 100
+   horse: 100
+   tdm: 100
+
+# Enable event signs?
+# Warning: CPU intensive.
+enabled-signs: true
+
+event-names:
+   # "Formal Name"
+   # These are the names of the events that are displayed to the players.
+   # You are welcome to change them to something totally different, but you can't change the command.
+   ko: "Knock Out"
+   koth: "KOTH"
+   lms: "LMS"
+   oitc: "OITC"
+   paint: "Paint Ball"
+   parkour: "Parkour"
+   spleef: "Spleef"
+   tnt: "TNT Run"
+   horse: "Horse Race"
+   tdm: "TDM"
+
+signs:
+
+  # This sign will act as a join sign. Right click it to join.
+
+  # If the first line of any sign matches this, it will be qualified as an MiniEvents sign.
+  first-line: '&a-Event-'
+
+  # What should be on the second line before and during an event.
+  # {EVENT} is replaced by the events name.
+  second-line-before: '{EVENT}'
+
+  # What should be on the second line after an event ends.
+  second-line-after: ""
+
+  # Shows the time that is left until the event starts.
+  # Doesn't work for when an event  has already started.
+  third-line-before: '&b{TIME}'
+
+  # What should be on the third line when the event has already started.
+  third-line-started: "Event Started"
+
+  # What should be on the third line when the event has ended.
+  third-line-after: "No Events"
+
+  # What should be on the fourth line what the event is starting.
+  fourth-line-before: "Click to Join!"
+
+  # What should be on the fourth line when the event has started.
+  fourth-line-after: ""
+
+stats:
+  # Should sidebar stats be enabled?
+  enabled: true
+
+  ko:
+    scoreboard-title: '&c{TIME}'
+    total-players: '&eTotal Players:'
+    name: '&a{EVENT}'
+    wins: '&eWins:'
+    total: '&eTotal Games:'
+  koth:
+    scoreboard-title: '&c{TIME}'
+    total-players: '&eTotal Players:'
+    wins: '&eTotal Wins:'
+    name: '&a{EVENT}'
+    total: '&eTotal Games:'
+  lms:
+    scoreboard-title: '&c{TIME}'
+    total-players: '&eTotal Players:'
+    name: '&a{EVENT}'
+    wins: '&eWins:'
+    total: '&eTotal Games:'
+  oitc:
+    scoreboard-title: '&c{TIME}'
+    total-players: '&eTotal Players:'
+    name: '&a{EVENT}'
+    wins: '&eWins:'
+    total: '&eTotal Games:'
+  paint:
+    scoreboard-title: '&c{NAME}'
+    total-players: '&eTotal Players:'
+    name: '&a{EVENT}'
+    wins: '&eWins:'
+    total: '&eTotal Games:'
+  parkour:
+    scoreboard-title: '&c{TIME}'
+    total-players: '&eTotal Players:'
+    name: '&a{EVENT}'
+    wins: '&eWins:'
+    total: '&eTotal Games:'
+  spleef:
+    scoreboard-title: '&c{TIME}'
+    total-players: '&eTotal Players:'
+    name: '&a{EVENT}'
+    wins: '&eWins:'
+    total: '&eTotal Games:'
+  tnt:
+    scoreboard-title: '&c{TIME}'
+    total-players: '&eTotal Players:'
+    name: '&a{EVENT}'
+    wins: '&eWins:'
+    total: '&eTotal Games:'
+  horse:
+    scoreboard-title: '&c{TIME}'
+    total-players: '&eTotal Players:'
+    name: '&a{EVENT}'
+    wins: '&eWins:'
+    total: '&eTotal Games:'
+  tdm:
+    scoreboard-title: '&c{TIME}'
+    total-players: '&eTotal Players:'
+    name: '&a{EVENT}'
+    wins: '&eWins:'
+    total: '&eTotal Games:'
+
+prizes:
+
+   # These commands will be ran when a player wins.
+   # {0} is replaced by the winner's name.
+   # /sendraw is a command that comes with MiniEvents.
+   # Usage: /sendraw (player) (message)
+   # You can use color codes.
+
+   ko:
+       - "eco give {0} 10"
+       - "sendraw {0} &aCongrats, you won!"
+       - "give {0} diamond 10"
+   horse:
+       - "eco give {0} 10"
+       - "sendraw {0} &aCongrats, you won!"
+       - "give {0} diamond 10"
+   koth:
+       - "eco give {0} 10"
+       - "sendraw {0} &aCongrats, you won!"
+       - "give {0} diamond 10"
+   lms:
+       - "eco give {0} 10"
+       - "sendraw {0} &aCongrats, you won!"
+       - "give {0} diamond 10"
+   oitc:
+       - "eco give {0} 10"
+       - "sendraw {0} &aCongrats, you won!"
+       - "give {0} diamond 10"
+   paint:
+       - "eco give {0} 10"
+       - "sendraw {0} &aCongrats, you won!"
+   parkour:
+       - "eco give {0} 10"
+       - "sendraw {0} &aCongrats, you won!"
+   spleef:
+       - "eco give {0} 10"
+       - "sendraw {0} &aCongrats, you won!"
+   tnt:
+      - "eco give {0} 10"
+      - "sendraw {0} &aCongrats, you won!"
+   tdm:
+      - "eco give {0} 10"
+      - "sendraw {0} &aCongrats, you won!"

@@ -1,0 +1,22 @@
+name: MiniEvents
+author: MirrorRealm
+main: Mains.MiniEvents
+version: 1.4
+commands:
+   event:
+   join:
+   lms:
+   spleef:
+   ko:
+   setquit:
+   tntrun:
+   paint:
+   koth:
+   parkour:
+   oitc:
+   sendraw:
+   eventstats:
+      aliases: [es]
+   horse:
+   tdm:
+   leave:
